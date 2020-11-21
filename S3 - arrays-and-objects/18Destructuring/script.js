@@ -11,6 +11,7 @@ let [vName, vAge, vMarried] = arr; // remember destructuring arrays elements int
                                    // we have to place each var in sequence 💡 according to that destructured array:
                                    // since its array destructuring, use [] to make new var.
 
+console.log(arr) // by the way, this arrays keeps the same, its not deleting the origin '-'
 
 // what about destructuring properties from html to console.log them ? 
 
