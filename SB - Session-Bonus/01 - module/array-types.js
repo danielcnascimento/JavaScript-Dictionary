@@ -1,9 +1,5 @@
 
-
 // >>>> Module: thats how we can export the functions we want to make, we use "export" 
-
-
-
 
 export function pushArray(...arr){ //im using rest to say that my arguments will be an array
 
