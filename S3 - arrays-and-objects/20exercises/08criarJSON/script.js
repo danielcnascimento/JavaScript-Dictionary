@@ -1,3 +1,5 @@
+//getting started with JSON, you do yours, but check these if you wanna hint 🤨
+
 let pessoa = {
     "nome":"Daniel",
     "idade":23,

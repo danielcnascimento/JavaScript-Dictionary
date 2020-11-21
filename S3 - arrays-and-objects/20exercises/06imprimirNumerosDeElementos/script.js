@@ -1,3 +1,5 @@
+//Working with conditions + arrays
+
 let arr = [1,8,6,4,9]
 
 let secArr = ['Dan', true, 6]
