@@ -12,8 +12,10 @@ function circuference(ray){
 
 myRandom();
 
-export const allFunctions = {
+const allFunctions = {
     area,
     circuference,
     myRandom
-}
+};
+
+export default allFunctions;
