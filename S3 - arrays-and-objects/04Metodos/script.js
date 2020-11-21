@@ -1,3 +1,10 @@
+//Welcome to method: 😉
+
+// look.. all methods ends with () it means you can send informations,
+// and when they dont have (params) it means they are properties! 💡
+
+// dont forget.. 🤨 we can use "let" for declaring a variable..
+// const will declare and ALWAYS point to that first value 🗯️🗯️
 let marca = 'Adidas'
 
 console.log(marca.toLowerCase());

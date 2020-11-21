@@ -1,13 +1,15 @@
 let pessoa = {
-    nome: 'Daniel',
-    idade: '23',
-    estado: 'Rio de Janeiro',
-    cpf: 123456789-20,
-    'estado civil': 'solteiro',
+    name: 'Daniel',
+    age: '23',
+    state: 'Rio de Janeiro',
+    id: 123456789-20,
+    'you single': true, // 👈 to make a property with space use space between words
     profissao: 'programador junior',
 }
 
-// console.log(pessoa.profissao)
+//guys .. just some examples below 👇 but i want you to erase it and try yourself 🤨
+
+// console.log(pessoa.profissao) 
 
 // console.log(pessoa["estado civil"])
 
@@ -21,6 +23,9 @@ let familia = {
     mae: 'Fatima',
 }
 
+//thats something used second my teacher .. you can fucking JOIN OBJECTS 🤩 obove i made my "family" object 
+// i can use the father of all objects i make called "Objects" to call a object method: assign to define a target 🎯 and source ℹ️
+ 
 console.log(pessoa);
 
 Object.assign(pessoa, familia);
