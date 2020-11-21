@@ -1,3 +1,6 @@
+// 💡 debugger is besically how you can use break to stop your code, and play it slowly.. 
+// you can see all changes, before they commit and after commit 🤔 you decide when to play.
+// ✍️ you will use it in large projects.. for small ones, use console.log 😉
 let a = 1;
 let b = 2;
 let c = 3;
@@ -16,6 +19,7 @@ for(let i = 5; i > 0; i--){
     console.log(a);
     c += 2;
 
+    debugger; // now run the HTML on your brower and check "source" on that top bar, you can see a " ▶️ " tap it and check debugger magic.
 
 }
 

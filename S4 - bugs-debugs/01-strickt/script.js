@@ -1,13 +1,14 @@
 "use strict"
 
-let opa = 'teste';
+let hey = 'test';
 
-function teste(teste){
+function test(test){
     
-    teste = 'testando veriavel';
+    test = 'testando veriavel';
 
 }
 
 teste();
 
+//now strict will show that its not possible>>
 false.prop = "";
