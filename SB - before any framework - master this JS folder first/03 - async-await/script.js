@@ -12,12 +12,6 @@ async function fetchingMyData(url){ //async will say "this will be execulted asy
 };
 
 
-const resposta = fetchingMyData('https://cguni.herokuapp.com/questions'); // we can send this function to a const, so we will be able to use that returned JSON
-
-console.log('minha requisição restornando sem estar preparada: ' + resposta)
-
-resposta.then(resp => { // okay, we want to use the retrived data, but it must be done sequentially, we have to wait everythin be done, thats why we use "then", to wait the data be retrive and THEN use them
-    
-    console.log('minha requisição preparada, usando "then" : ' + resp )
-
-})
+fetchingMyData('https://cguni.herokuapp.com/questions').then( resp =>{
+    console.log('now i can access the values, look at this ID" : ' + resp.id )
+}) // we will have use "then" because only after the data from that url be retrived, we can use its values
