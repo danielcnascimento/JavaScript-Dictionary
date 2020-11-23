@@ -7,22 +7,35 @@
 // > Filter
 let valores = [
     "R$ 400",
+    "R$ 450",
+    "R$ 490",
     "R$ 150",
     "R$ 300",
     "valores numericos",
     "R$ 700",
     "contas a pagar",
-    "R$ 600"
+    "R$ 400"
 ];
 
-const filter = valores.filter(filtered =>  filtered.includes("R$"));
+const filterValor = valores.filter(valor =>  valor.includes('R$'));
  
-console.log(filter);
+console.log(filterValor);
 
 // map() aplicará a função em cada elemento de um array, e o resultado será um novo array clonado do original
 // map() will apply a functions to each element in an array, and return its new values to a new decoy array
 
 // > Map
-const mapeaValores = filter.map(valor => Number(valor.replace("R$ ", "")));
+const mapeaValores = filterValor.map(function(valor){
+    return Number(valor.replace('R$ ', ''));
+});
 
 console.log(mapeaValores);
+
+//reduce() retornará sempre um unico valor, ele começa pelo primeiro item da array da esquerda para a direita e pega já o segundo para realizar uma operação, no final da pra ver que ele acumula cada valor no array, e retorna.
+//reduce() returns only a single value,. it runs the array from left to right, taking the fist element, to do something else on the second element, it accumulates each element in the array, and returns.
+
+const reducePreco = mapeaValores.reduce(function(acc, item){
+   return acc+item
+})
+
+console.log('valores acumulados: ' + reducePreco);
